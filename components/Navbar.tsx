@@ -49,6 +49,7 @@ const Navbar = () => {
           className='absolute md:static top-10 -left-20 bg-white'
         >
           <input
+            type='text'
             value={searchValue}
             onChange={(e) => setSearchValue(e.target.value)}
             className='bg-primary p-3 md:text-md font-medium border-2 border-gray-100 focus:outline-none focus:border-2 focus:border-gray-300 w-[300px] md:w-[350px] rounded-full  md:top-0'
